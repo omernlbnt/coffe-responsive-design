@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-mug-hot"></i> kahve dünyası</a>
+
+      <nav class="navbar">
+        <a href="home.html" class="active">anasayfa</a>
+        <a href="about.html">hakkında</a>
+        <a href="menu.html">menü</a>
+        <a href="review.html">yorumlar</a>
+        <a href="blogs.html">blog</a>
+        <a href="contact.html">iletişim</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          id="search-box"
+          placeholder="search here.."
+        />
+        <label class="fas fa-search"></label>
+      </form>
+
+      <!-- shopping cart -->
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/cart-1.png" alt="" />
+          <div class="content">
+            <h3>mocha magic</h3>
+            <span class="price">34.99/=</span>
+            <span class="quantity"> qty: 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/cart-2.png" alt="" />
+          <div class="content">
+            <h3>mocha magic</h3>
+            <span class="price">34.99/=</span>
+            <span class="quantity"> qty: 1</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="images/cart-3.png" alt="" />
+          <div class="content">
+            <h3>mocha magic</h3>
+            <span class="price">34.99/=</span>
+            <span class="quantity"> qty: 1</span>
+          </div>
+        </div>
+
+        <div class="total">toplam : 59.99/=</div>
+        <a href="#" class="btn">sonuç</a>
+      </div>
+
+      <!-- login -->
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="Your Email" class="box" />
+        <input type="password" placeholder="Your Password" class="box" />
+        <p>forget your password <a href="#"> click here</a></p>
+        <p>don't have an account? <a href="#"> create now</a></p>
+        <input type="submit" value="login" class="btn" />
+      </form>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- sub heading -->
+
+    <div class="sub-heading">
+      <h1>contact us</h1>
+    </div>
+
+    <!-- end -->
+
+    <!-- contact us section starts -->
+
+    <section class="contact">
+      <div class="row">
+        <form action="">
+          <h3>book a table</h3>
+
+          <div class="inputBox">
+            <input type="text" placeholder="Enter Your Name" class="box" />
+            <input type="email" placeholder="Enter Your Email" class="box" />
+          </div>
+
+          <div class="inputBox">
+            <input type="number" placeholder="Enter Your number" class="box" />
+            <input type="number" placeholder="How Many Members" class="box" />
+          </div>
+          <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.168202256225!2d35.51087887578104!3d38.71394707176371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b127ad6cb1a4b%3A0x63689cb9c0b9cb66!2sNokta%20Rent%20a%20Car!5e0!3m2!1sen!2str!4v1709795825438!5m2!1sen!2str"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- contact us section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-mug-hot"></i> coffee</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> 5533302526</a>
+          <a href="#" class="links">
+            <i class="fas fa-envelope"></i> omerfaruk@gmail.com</a
+          >
+          <a href="#" class="links">
+            <i class="fas fa-map-marker-alt"></i> kayseri</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>ekstra linkler</h3>
+          <a href="#">siparişlerim</a>
+          <a href="#">favorilerim</a>
+          <a href="#">hesapları</a>
+          <a href="#">hesaplarım</a>
+          <a href="#">kullanılan tarifler</a>
+        </div>
+
+        <div class="box">
+          <h3>linkler</h3>
+          <a href="#">menü</a>
+          <a href="#">bölge</a>
+          <a href="#">events & promotions</a>
+          <a href="#">SSS</a>
+          <a href="#">İletişime geç</a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest update</p>
+          <form action="">
+            <input type="email" placeholder="enter your email" />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+          <img src="images/payment.png" class="payment" alt="" />
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>ofn</span> | all rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
